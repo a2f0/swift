@@ -6,6 +6,8 @@ Add an image to a PDF.
 
 This was created with `swift package init --type=executable`
 
-Run the source with `swift build` and then `swift run`.
+Use `swift build` and then `swift run`.
 
-Run `swift package clean` to clean thew build folder.
+`swift package clean` to clean thew build folder.
+
+`swift test` to start tests.
