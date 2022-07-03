@@ -29,6 +29,7 @@ final class swiftLibTests: XCTestCase {
 
         let data = pipe.fileHandleForReading.readDataToEndOfFile()
         let output = String(data: data, encoding: .utf8)
+        XCTAssertEqual(output, "Hello, World!\n")
 
         #endif
     }
